@@ -50,3 +50,14 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>4.7 - JavaScript - Eventos</li>
 <li>4.8 - JavaScript - Web Storage</li>
 </ul>
+
+#### ❌ Módulo 5:
+
+<ul>
+<li>5.1 - Introdução - JavaScript - Projetos</li>
+<li>5.1 - Projeto - Meme Generator</li>
+<li>5.1 - Projeto - Arte com Pixels</li>
+<li>5.1 - Projeto - Lista de tarefas</li>
+<li>5.1 - (Bônus) Projeto - Adivinhe a Cor</li>
+<li>5.1 - (Bônus) Projeto - Carta Misteriosa</li>
+</ul>
