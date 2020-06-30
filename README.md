@@ -61,3 +61,9 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>5.1 - (Bônus) Projeto - Adivinhe a Cor</li>
 <li>5.1 - (Bônus) Projeto - Carta Misteriosa</li>
 </ul>
+
+<hr />
+
+#### Legenda:
+✅ <strong>Conteúdo já estudado.</strong> <br />
+❌ <strong>Conteúdo a estudar.</strong> <br />
