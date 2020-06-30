@@ -36,3 +36,17 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>3.4 - HTML Semântico</li>
 <li>3.5 - Projeto - HTML & CSS</li>
 </ul>
+
+#### ❌ Módulo 4:
+
+<ul>
+<li>4.1 - Introdução - JavaScript</li>
+<li>4.1 - JavaScript - Primeiros passos</li>
+<li>4.2 - JavaScript - Array e loop For</li>
+<li>4.3 - JavaScript - Lógica de Programação e Algoritmos</li>
+<li>4.4 - JavaScript - Objetos e funções</li>
+<li>4.5 - JavaScript - DOM e seletores</li>
+<li>4.6 - JavaScript - Trabalhando com elementos</li>
+<li>4.7 - JavaScript - Eventos</li>
+<li>4.8 - JavaScript - Web Storage</li>
+</ul>
