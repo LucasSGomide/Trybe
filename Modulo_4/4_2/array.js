@@ -38,6 +38,7 @@ frutas.forEach(function(item, indice, array) {
 let addItem = frutas.push('Laranja');
 console.log(frutas)
 
+
 // Remover um item do final do array
 
 let removeLast = frutas.pop();
@@ -82,3 +83,7 @@ let copyArray = vegetais.slice();
 
 console.log(copyArray)
 console.log(vegetais)
+
+//Colocando um array em ordem alfabética
+
+console.log(vegetais.sort())
