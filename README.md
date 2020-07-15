@@ -26,7 +26,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
   <li>2.3 - Internet - Entendendo como ela funciona </li>
 </ul>
 
-#### ❌ Módulo 3:
+#### ✅ Módulo 3:
 
 <ul>
 <li>3.1 - Introdução - HTML & CSS</li>
