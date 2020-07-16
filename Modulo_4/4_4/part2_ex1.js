@@ -1,14 +1,12 @@
-texto = "arara"
-
-function reverseString(texto) {
+function palindromeCheck(texto) {
   var reversedText = '';
   for (let letra = texto.length - 1; letra >= 0; letra -= 1) {
     reversedText += texto[letra];
-  }   
-  return reversedText;
+  }   if (reversedText === texto) {
+    return ("Palíndrome -> " + texto +  "= " + reversedText)
+  } else {
+    return ("Não palíndrome -> " + texto + " != " + reversedText)
+  }
 }
 
-
-function palindromoCheck(reversedText) {
-  if palavra === 
-}
+console.log(palindromeCheck("Arara"))
