@@ -245,7 +245,7 @@ function hydrate(orderNotes) {
   if (sum === 1) {
     return (sum + " copo de água")
   } else {
-    (sum + " copos de água")
+    return (sum + " copos de água")
   }
 }
 
