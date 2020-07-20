@@ -4,12 +4,12 @@ let romanAlgarisms = {I : 1, IV : 4, V : 5, IX: 9, X : 10, XL : 40, L : 50, XC :
 //  console.log(index + " = " + romanAlgarisms[index])
 // }
 
-let wordTest = "IX"
+let wordTest = "VI"
 
 function romanAlgarismsConverter(wordTest) {
    let firstAlgarism ;
    let secondAlgarism;
-   let sum;
+   let sum = 0
 
   for (let index in romanAlgarisms) {
     for (let cont = 0; cont < wordTest.length; cont += 1) {
@@ -21,9 +21,13 @@ function romanAlgarismsConverter(wordTest) {
     }
   }
   if (firstAlgarism > secondAlgarism) {
-    sum = firstAlgarism + secondAlgarism
-  } else {
-    sum = secondAlgarism - firstAlgarism
+    sum += firstAlgarism + secondAlgarism
+  } else if (firstAlgarism < secondAlgarism || secondAlgarism){
+    sum += secondAlgarism - firstAlgarism
+  } else if (firstAlgarism) {
+    sum += firstAlgarism
+  } else if (secondAlgarism) {
+    sum += secondAlgarism
   }
   return ("Primeiro algarismo: " + firstAlgarism + " segundo algarismo : " + secondAlgarism + " operação : " + sum)
 }
