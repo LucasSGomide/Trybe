@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <body>
+    <h2 id="page-title">Título</h2>
+    <p id="paragraph" class="paragraphStyle">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph" class="paragraphStyle">Segundo parágrafo!</p>
+
+    <script>
+
+      var paragraph = document.getElementById("paragraph")
+      paragraph.style.color = "red"
+
+      let paragraphStyle = document.getElementsByClassName("paragraphStyle")[0]
+      paragraphStyle.style.background = "blue"
+
+      let subtitleByTag = document.getElementsByTagName("h4")
+      console.log(subtitleByTag)
+
+      let title = document.getElementById("page-title").innerHTML
+      title = "NewName"
+      console.log(title)
+
+      let secondParagraph = document.getElementById("second-paragraph").innerHTML
+      secondParagraph = "Mudando o conteúdo desde parágrafo"
+      console.log(secondParagraph)
+
+      let subtitle = document.getElementById("subtitle").innerHTML
+      subtitle = "Novo subtítulo para este exercício"
+      console.log(subtitle)
+
+    
+
+    </script>
+  </body>
+</html>
