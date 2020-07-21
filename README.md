@@ -45,7 +45,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>4.2 - JavaScript - Array e loop For</li>
 <li>4.3 - JavaScript - Lógica de Programação e Algoritmos</li>
 <li>4.4 - JavaScript - Objetos e funções</li>
-<li>4.5 - Projeto - Playground Functions</li>
+<li>4.5 - Projeto - <a href="https://github.com/LucasSGomide/Trybe/tree/master/Modulo_4/4_5_playgroundFunctionsProject" target="_blank">Playground Functions<a></li>
 </ul>
 
 #### ❌ Módulo 5:
