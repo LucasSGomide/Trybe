@@ -53,14 +53,14 @@
         */
 
       function changeParagraph() {
-        let newParagraph = document.getElementsByTagName("p")
-        newParagraph[0].innerHTML = "Lucas Gomide - WEB DEV - Full Stack"
+        let newParagraph = document.getElementsByTagName("p");
+        newParagraph[1].innerHTML = "Lucas Gomide - WEB DEV - Full Stack"
       }
 
       changeParagraph()
 
       function colorToTrybeGreen() {
-        let changeColor = document.getElementsByClassName("main-content")[0]
+        let changeColor = document.getElementsByClassName("main-content")[0];
         changeColor.style.backgroundColor = "rgb(76,164,109)"
       }
 
@@ -80,7 +80,34 @@
 
       correctSpelling()
 
+      function toUpperCase() {
+        let tagP = document.getElementsByTagName("p")
+        for (iten in tagP) {
+          tagP[iten].style.textTransform = "uppercase"
+        } 
+      }
 
+      toUpperCase();
+
+
+      function toUpperCase2() {
+        let tagP = document.getElementsByTagName("p")[0]
+        tagP.innerHTML = tagP.innerHTML.toUpperCase();
+      }
+
+      //toUpperCase2();
+
+      
+      function tagToConsole() {
+        tagP = document.getElementsByTagName("p")
+
+        for (iten in tagP) {
+          console.log(tagP[iten].innerHTML)
+        }
+      }
+
+      tagToConsole()
+    
 
     </script>
   </body>
