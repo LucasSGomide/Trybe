@@ -34,7 +34,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>3.2 - HTML & CSS - Primeiros passos em CSS</li>
 <li>3.3 - HTML & CSS - Seletores e posicionamento</li>
 <li>3.4 - HTML Semântico</li>
-<li>3.5 - Projeto - HTML & CSS</li>
+<li>3.5 - Projeto -<a href="https://github.com/LucasSGomide/lucasSGomide.github.io">Lessons Learned - HTML & CSS</a></li>
 </ul>
 
 #### ✅ Módulo 4:
