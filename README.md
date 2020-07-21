@@ -37,7 +37,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>3.5 - Projeto - HTML & CSS</li>
 </ul>
 
-#### ❌ Módulo 4:
+#### ✅ Módulo 4:
 
 <ul>
 <li>4.1 - Introdução - JavaScript</li>
@@ -45,21 +45,22 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>4.2 - JavaScript - Array e loop For</li>
 <li>4.3 - JavaScript - Lógica de Programação e Algoritmos</li>
 <li>4.4 - JavaScript - Objetos e funções</li>
-<li>4.5 - JavaScript - DOM e seletores</li>
-<li>4.6 - JavaScript - Trabalhando com elementos</li>
-<li>4.7 - JavaScript - Eventos</li>
-<li>4.8 - JavaScript - Web Storage</li>
+<li>4.5 - Projeto - Playground Functions</li>
 </ul>
 
 #### ❌ Módulo 5:
 
 <ul>
-<li>5.1 - Introdução - JavaScript - Projetos</li>
-<li>5.1 - Projeto - Meme Generator</li>
-<li>5.1 - Projeto - Arte com Pixels</li>
-<li>5.1 - Projeto - Lista de tarefas</li>
-<li>5.1 - (Bônus) Projeto - Adivinhe a Cor</li>
-<li>5.1 - (Bônus) Projeto - Carta Misteriosa</li>
+<li>5.1 - JavaScript - DOM e seletores</li>
+<li>5.2 - JavaScript - Trabalhando com elementos</li>
+<li>5.3 - JavaScript - Eventos</li>
+<li>5.4 - JavaScript - Web Storage</li>
+<li>5.5 - Introdução - JavaScript - Projetos</li>
+<li>5.5 - Projeto - Meme Generator</li>
+<li>5.6 - Projeto - Arte com Pixels</li>
+<li>5.7 - Projeto - Lista de tarefas</li>
+<li>5.7 - (Bônus) Projeto - Adivinhe a Cor</li>
+<li>5.7 - (Bônus) Projeto - Carta Misteriosa</li>
 </ul>
 
 <hr />
