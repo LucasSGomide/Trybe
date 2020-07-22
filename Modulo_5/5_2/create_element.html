@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    
+    <div id="paiDoPai">
+      <div id="pai">
+        <div id="primeiroFilho"></div>
+          primeiro filho
+        <div id="elementoOndeVoceEsta">
+          eu aqui
+          <div id="primeiroFilhoDoFilho"></div>
+          fi do fi
+          <div id="segundoEUltimoFilhoDoFilho"></div>
+          segundo fi do fi
+        </div>
+        Atenção!
+        <div id="terceiroFilho"></div>
+        terceiro fi
+        <div id="quartoEUltimoFilho"></div>
+        quarto fi
+      </div>
+    </div>
+
+
+    <script>
+ 
+      let myBrother = document.createElement("div")
+      myBrother.innerHTML = "My Brother"
+      document.getElementById("pai").appendChild(myBrother)
+
+      let mySon = document.createElement("div")
+      mySon.innerHTML = "Filhão vem pro pai"
+      document.getElementById("elementoOndeVoceEsta").appendChild(mySon)
+
+      let sonOfSon = document.createElement("div")
+      sonOfSon = "Filhão do Filhão";
+     
+      document.getElementById("primeiroFilhoDoFilho").appendChild(sonOfSon)
+
+      console.log(
+        document.querySelector("#pai").childNodes
+      )
+
+
+    </script>
+
+  </body>
+
+</html>
