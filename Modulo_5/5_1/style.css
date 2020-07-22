@@ -1,0 +1,7 @@
+.paragraphStyle {
+  width: 200px;
+  height: 100px;
+  background: grey;
+  padding: 10px;
+  text-align: center;
+}
