@@ -46,7 +46,26 @@ Start with this webpage, which has inputs and buttons for things to calculate:
   <br><br>
   <div id="solution"></div>
 
-  
+  <script>
+
+    function squareCalculator() {
+      let numberToSquare = document.getElementById("square-input")
+      let squareResult = numberToSquare.value * numberToSquare.value
+      let number = numberToSquare.value
+
+      let squareParagraph = document.createElement("p")
+      squareParagraph.innerText = (number + "²" + " = " + squareResult)
+      document.querySelector("#solution").appendChild(squareParagraph)
+    }
+
+    let squareButton = document.querySelector("#square-button")
+    squareButton.addEventListener("click", squareCalculator)
+
+    let halfButton =
+
+  </script>
+
+
 </body>
 </html>
 
