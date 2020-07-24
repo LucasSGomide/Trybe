@@ -35,18 +35,31 @@ Bonus #3: When the cat reaches the middle of the screen, replace the img with an
   <script>
     let imgRef = document.querySelector("img")
     imgRef.style.left = "0px"
-    
+    let leftEdge = false;
+
     let catInterval = setInterval(catWalk, 50)
     
-    
     function catWalk() {
-      imgRef.style.left = parseInt(imgRef.style.left) + 10 + "px"
-      if (parseInt(imgRef.style.left) > window.innerWidth) {
-        
-        imgRef.style.left = "0px"
+      if (parseInt(imgRef.style.left) <= window.innerWidth && leftEdge === false) {
+        imgRef.style.left = parseInt(imgRef.style.left) + 10 + "px"
       }
+     
+      if (parseInt(imgRef.style.left) > window.innerWidth && leftEdge === false) {
+        imgRef.style.left= window.innerWidth + "px"
+        leftEdge = true;
+        // console.log(leftEdge)
+      } 
+
+      if (parseInt(imgRef.style.left) <= window.innerWidth && leftEdge === true) {
+        imgRef.style.left = parseInt(imgRef.style.left) - 10 + "px"
+      }
+
+      if (parseInt(imgRef.style.left) <= -300 && leftEdge === true) {
+        imgRef.style.left = -300 + "px"
+        leftEdge = false;
+        // console.log(leftEdge)
+      } 
     }
-    
 
   </script>
   
