@@ -47,21 +47,46 @@ Start with this webpage, which has inputs and buttons for things to calculate:
   <div id="solution"></div>
 
   <script>
-
+    let solution = document.querySelector("#solution")
     function squareCalculator() {
-      let numberToSquare = document.getElementById("square-input")
-      let squareResult = numberToSquare.value * numberToSquare.value
-      let number = numberToSquare.value
+      let numberToSquare = document.querySelector("#square-input");
+      let squareResult = numberToSquare.value * numberToSquare.value;
+      let number = numberToSquare.value;
 
       let squareParagraph = document.createElement("p")
       squareParagraph.innerText = (number + "²" + " = " + squareResult)
-      document.querySelector("#solution").appendChild(squareParagraph)
+      solution.appendChild(squareParagraph)
     }
 
-    let squareButton = document.querySelector("#square-button")
+    let squareButton = document.querySelector("#square-button");
     squareButton.addEventListener("click", squareCalculator)
 
-    let halfButton =
+    function halfCalculator() {
+      let numberToHalf = document.getElementById("half-input")
+      let halfResult = numberToHalf.value / 2
+
+      let halfParagraph = document.createElement("p")
+      halfParagraph.innerText = (numberToHalf.value + " /  2 = " + halfResult)
+      solution.appendChild(halfParagraph)
+    }
+
+    let halfButton = document.querySelector("#half-button");
+    halfButton.addEventListener("click", halfCalculator)
+
+    function areaCaclulator() {
+      let radiusToArea = document.querySelector("#area-input")
+      let radius = radiusToArea.value
+      let circleArea = ((Math.PI) * (radius ** 2))
+      
+      let areaParagraph = document.createElement("p")
+      areaParagraph.innerHTML = (Math.PI + " * " + radius + "² = " + circleArea)
+      solution.appendChild(areaParagraph)
+    }
+
+    let areaButton = document.querySelector("#area-button");
+    areaButton.addEventListener("click", areaCaclulator);
+
+    
 
   </script>
 
