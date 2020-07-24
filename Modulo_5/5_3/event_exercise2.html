@@ -73,7 +73,23 @@ Start with this webpage, which has inputs and buttons for things to calculate:
     let halfButton = document.querySelector("#half-button");
     halfButton.addEventListener("click", halfCalculator)
 
-    function areaCaclulator() {
+    function percentCalculator() {
+      let getValueOne = document.querySelector("#percent1-input");
+      let getValueTwo = document.querySelector("#percent2-input");
+      let valueOne = getValueOne.value;
+      let valueTwo = getValueTwo.value;
+
+      let percentResult = valueOne / valueTwo
+      let percentParagraph = document.createElement("p")
+      percentParagraph.innerText = (valueOne + "/" + valueTwo + " = " + percentResult * 100 + "%")
+      solution.appendChild(percentParagraph)
+    }
+
+    let percentButton = document.querySelector("#percent-button")
+    percentButton.addEventListener("click", percentCalculator)
+
+
+    function areaCaclulator(event) {
       let radiusToArea = document.querySelector("#area-input")
       let radius = radiusToArea.value
       let circleArea = ((Math.PI) * (radius ** 2))
@@ -81,12 +97,20 @@ Start with this webpage, which has inputs and buttons for things to calculate:
       let areaParagraph = document.createElement("p")
       areaParagraph.innerHTML = (Math.PI + " * " + radius + "² = " + circleArea)
       solution.appendChild(areaParagraph)
-    }
+      }
 
     let areaButton = document.querySelector("#area-button");
     areaButton.addEventListener("click", areaCaclulator);
 
-    
+      // Adding enter key to button click
+      
+    let areaInput = document.querySelector("#area-input");
+    areaInput.addEventListener("keyup", function(event) {
+      if (event.keyCode === 13) {
+          event.preventDefault();
+          document.querySelector("#area-button").click();
+      }
+    });
 
   </script>
 
