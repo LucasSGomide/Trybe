@@ -28,6 +28,24 @@ Start with this webpage, which has several input elements and a button:
  <button id="lib-button">Lib it!</button>
   
  <div id="story"></div>
+
+ <script>
+   function makeMadLib() {
+    let someoneName = document.querySelector("#person")
+    let adjective = document.querySelector("#adjective")
+    let noun = document.querySelector("#noun")
+
+    let storyParagraph = document.createElement("p")
+    storyParagraph.innerText = someoneName.value + " " + adjective.value + " " + noun.value
+    document.querySelector("#story").appendChild(storyParagraph)
+   }
+
+
+   let button = document.querySelector("#lib-button")
+   button.addEventListener("click", makeMadLib)
+
+   
+ </script>
   
  </body>
 </html>
