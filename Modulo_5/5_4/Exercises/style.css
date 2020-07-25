@@ -1,6 +1,8 @@
 #title {
   margin: auto;
   text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
 }
 
 span {
@@ -9,4 +11,27 @@ span {
 
 button {
   font-size: 8px;
+}
+
+label {
+  font-size: 12px;
+}
+
+.article-settings {
+  width: 80%;
+  margin: auto;
+  border-bottom: 1px solid rgb(161, 160, 160);
+  padding: 10px;
+  text-align: center;
+}
+
+.article {
+  width: 80%;
+  margin: auto;
+  padding-top: 20px;
+  text-align: justify;
+}
+
+#font-selector {
+  width: 70px;
 }

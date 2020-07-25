@@ -13,7 +13,7 @@
   <header>
     <h1 id="title" > Daily News </h1>
   </header>
-  <div>
+  <div class="article-settings">
     <span>Font Size</span>
     <button id="add-fontsize">+</button>
     <button id="subtract-fontsize">-</button>
@@ -22,8 +22,18 @@
     <button id="subtract-lineHeight">-</button>
     <label>Background Color:
     <input type="color" id="color-input">
+    </label>
+    <label>Font Color:
     <input type="color" id="text-color">
-  </label>
+    </label>
+    <label>Font Family:
+      <select id="font-selector" size="1">
+        <option>Serif</option>
+        <option>Sans-serif</option>
+        <option>Monospace</option>
+      </select>
+    </label>
+    <button id="save-settings">Save Settings</button>
   </div>
   <section>
     <article class="article" >
