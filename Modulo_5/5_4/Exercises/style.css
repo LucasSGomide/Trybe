@@ -1,6 +1,12 @@
 #title {
   margin: auto;
   text-align: center;
-
 }
 
+span {
+  font-size: 12px;
+}
+
+button {
+  font-size: 8px;
+}

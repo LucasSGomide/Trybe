@@ -11,4 +11,29 @@ window.onload = function() {
   buttonLess.addEventListener("click", function(event) {
     article.style.fontSize = parseInt(article.style.fontSize) - 2 + "px"
   })
+
+  let buttonMoreHeight = document.querySelector("#add-lineHeight")
+  let buttonLessHeight = document.querySelector("#subtract-lineHeight")
+  article.style.lineHeight = "14px"
+
+  buttonMoreHeight.addEventListener("click", function(event) {
+    article.style.lineHeight = parseInt(article.style.lineHeight) + 2 + "px"
+  })
+
+  buttonLessHeight.addEventListener("click", function(event) {
+    article.style.lineHeight = parseInt(article.style.lineHeight) - 2 + "px"
+  })
+
+  colorInput = document.querySelector("#color-input")
+
+  colorInput.addEventListener("change", function(event) {
+    document.body.style.backgroundColor = colorInput.value 
+  })
+
+  textColor = document.querySelector("#text-color")
+
+  textColor.addEventListener("change", function(event) {
+    document.body.style.color = textColor.value 
+  })
+
 }
