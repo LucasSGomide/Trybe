@@ -48,7 +48,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>4.5 - Projeto - <a href="https://github.com/LucasSGomide/Trybe/tree/master/Modulo_4/4_5_playgroundFunctionsProject" target="_blank">Playground Functions<a></li>
 </ul>
 
-#### ❌ Módulo 5:
+#### ✅ Módulo 5:
 
 <ul>
 <li>5.1 - JavaScript - DOM e seletores</li>
@@ -61,6 +61,19 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>5.7 - Projeto - Lista de tarefas</li>
 <li>5.7 - (Bônus) Projeto - Adivinhe a Cor</li>
 <li>5.7 - (Bônus) Projeto - Carta Misteriosa</li>
+</ul>
+
+#### ❌ Módulo 6:
+
+<ul>
+<li>6.1 - Introdução - Front-end</li>
+<li>6.1 - HTML & CSS - Forms</li>
+<li>6.2 - Bibliotecas JavaScript e Frameworks CSS</li>
+<li>6.3 - Introdução - CSS Flexbox</li>
+<li>6.3 - CSS Flexbox - Parte 1</li>
+<li>6.4 - CSS Flexbox - Parte 2</li>
+<li>6.5 - CSS Responsivo - Mobile First</li>
+<li>6.6 - Projeto - Página inicial do Facebook</li>
 </ul>
 
 <hr />
