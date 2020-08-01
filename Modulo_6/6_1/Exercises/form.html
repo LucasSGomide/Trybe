@@ -28,7 +28,9 @@
         <input type="text" name="adress-form" id="adress-form" maxlength="200" required="required">
 
         <label for="state-form">State</label>
-        <select name="state-form" id="state-form"></select>
+        <select name="state-form" id="state-form">
+          
+        </select>
 
         <label for="apartment-form">Apartment</label>
         <input type="radio" name="home-type" id="apartment-form" required="required">
@@ -49,9 +51,19 @@
         <label for="position-description">Position Description</label><br>
         <textarea name="position-description" id="position-description" cols="20" rows="10" maxlength="500" required="required"></textarea>
 
+        <label for="starting-date-form">Starting Date</label>
+        <input type="text" name="starting-date" id="starting-date-form">
+
       </fieldset>
 
     </form>
+
+    <div id="button-container">
+
+      <button type="submit" name="submit-form" id="submit-form-button">Submit</button>
+      <button name="clear-form" type="" id="clear-form-button">Clear</button>
+
+    </div>
     
     <script src="script.js"></script>
   </body>
