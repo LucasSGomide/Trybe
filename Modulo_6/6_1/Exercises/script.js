@@ -40,24 +40,30 @@ const positionDescription = document.querySelector('#position-description').valu
 const startingDate = dateForm.value;
 
 const apartmentForm  = document.querySelector('#apartment-form');
-const houseForm = document.querySelector('#house-form');
+let livingType;
 
-let formContent = [fullName, emailForm, cpfForm, adressForm, stateValue, resumeSummary, postionHeld, positionDescription, startingDate];
+let formContent = {Name : fullName, Email : emailForm, CPF : cpfForm, Address : adressForm, State : stateValue, Summary : resumeSummary, Position : postionHeld, Description : positionDescription, Date : startingDate};
 
 if (apartmentForm.checked) {
-  let apartmentTrue = 'Apartment'
-  formContent.splice(3, 0, apartmentTrue);
+  livingType = 'Apartment';
+  //formContent.splice(3, 0, apartmentTrue);
 } else {
-  let houseTrue = 'House'
-  formContent.splice(3, 0, houseTrue);
+  livingType = 'House';
+  //formContent.splice(3, 0, houseTrue);
 }
   const confirmationDiv = document.querySelector('#confirmation');
-  for (item = 0; item < formContent.length; item += 1) {
+  for (item in formContent) {
     console.log(formContent[item])
     let newP = document.createElement('p');
-    newP.innerText = formContent[item];
+    newP.innerText = item + ' : ' + formContent[item];
+    newP.className = 'confirmationP'
     confirmationDiv.appendChild(newP);
   }
+
+  let livingP = document.createElement('p');
+  livingP.innerText = 'Type: ' + livingType;
+  livingP.className = 'confirmationP';
+  confirmationDiv.appendChild(livingP);
 });
 
 dateForm.addEventListener('input' , function () {
