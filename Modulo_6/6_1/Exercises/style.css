@@ -1,0 +1,104 @@
+/* Form Styles */
+
+header {
+  background-color: rgb(219, 217, 217);
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 5px;
+  width: 83%;
+  margin: 20px auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+em {
+  color: rgb(51, 50, 50);
+  font-size: 20px;
+}
+
+fieldset {
+  background-color: rgb(219, 217, 217);
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.personal-data input[type='text'] {
+  margin: 10px 5px;
+  display: inline-block;
+  width: 99%;
+}
+
+label {
+  color: rgb(51, 50, 50);
+  text-decoration: underline;
+  display: inline-block;
+  width: 100%;
+}
+
+.row-line {
+  width: 100%;
+}
+
+.row-double-l {
+  width: 49%;
+  height: 80px;
+  float: left;
+  text-align: center;
+}
+
+.row-double-r {
+  width: 50%;
+  height: 80px;
+  display: inline-block;
+  text-align: center;
+}
+
+.row-line textarea {
+  width: 50%;
+  margin-left: 25%;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.last-job-data label {
+  text-align: center;
+}
+
+.starting-date-form {
+  width: 50%;
+  margin-left: 25%;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.date-error {
+  color: red;
+}
+
+.confirmation {
+  background-color: rgb(219, 217, 217);
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 5px;
+  width: 83%;
+  margin: auto;
+}
+
+.confirmationP {
+  background-color: white;
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  padding: 3px 30px;
+}
+
+.buttons {
+  padding-top: 20px;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
