@@ -53,7 +53,7 @@
 
         <div class="row-line">
           <label for="postion-held">Occupation/Postion held</label>
-          <textarea name="postion-held" id="postion-held" cols="20" rows="10" maxlength="40" required="required"></textarea>
+          <textarea name="postion-held" id="position-held" cols="20" rows="10" maxlength="40" required="required"></textarea>
         </div>
         
         <div class="row-line">
@@ -72,7 +72,12 @@
     <div id="button-container">
 
       <input type="submit" name="submit-form" id="submit-form-button">
-      <button name="clear-form" type="" id="clear-form-button">Clear</button>
+
+      <button name="clear-form" type="button" id="clear-form-button" onclick="window.location.reload()">Clear</button>
+
+    </div>
+
+    <div id="confirmation" class="confirm">
 
     </div>
     

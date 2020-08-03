@@ -43,7 +43,6 @@ label {
 .row-double-l {
   width: 49%;
   height: 80px;
-  display: inline;
   float: left;
   text-align: center;
 }
