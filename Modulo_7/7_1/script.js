@@ -1,18 +1,26 @@
 window.onload = _ => {
-
+  let sum = 0
   const button = document.querySelector('.button');
   button.addEventListener('click', _ => {
-  let sum = 0
   sum += 1
-  createSpam(sum);
+  editSpam(sum);
 })
+
+  createSpam();
 
 }
 
 const rightContent = document.querySelector('.right-content');
 
-const createSpam = text => {
-  let spanTag = document.createElement('span');
-  spanTag.innerText = 
-  return rightContent.appendChild(spanTag)
+const editSpam = text => {
+  let spanTag = document.querySelector('.span-number')
+  spanTag.innerText = ' ';
+  spanTag.innerText = text;
+  return spanTag;
+}
+
+const createSpam = _ => {
+  const newSpanTag = document.createElement('span');
+  newSpanTag.className = 'span-number';
+  return rightContent.appendChild(newSpanTag);
 }

@@ -33,6 +33,12 @@
   width: 45%;
 }
 
+.span-number {
+  background-color: rgb(182, 182, 182);
+  padding: 10px 40px;
+  font-size: 2rem;
+}
+
 .top-bar {
   align-items: center;
   background-color: green;
