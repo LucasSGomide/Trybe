@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+
+
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title has-text-centered">Application Form</h1>
+      <em>
+        <h2 class="subtitle has-text-centered">Please let us know a few things about you !</h2>
+      </em>
+    </header>
+
+    <form method="GET" class="application-form">
+      <div class="field">
+        <label class="label" for="full-name">Name:</label>
+          <div class="control">
+            <input id="full-name" class="input" name="full-name" type="text" maxlength="40" required="required" placeholder="Your name here">
+          </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="email-form">Email:</label>
+          <div class="control">
+            <input id="email-form" class="input" name="email-form" type="text" maxlength="50" required="required" placeholder="user@something.com">
+          </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="cpf-form">CPF:</label>
+          <div class="control">
+            <input class="input" type="text" name="cpf-form" id="cpf-form" maxlength="11" required="required" placeholder="00000000000"> 
+          </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="adress-form">Adress:</label>
+          <div class="control">
+            <input class="input" type="text" name="adress-form" id="adress-form" maxlength="200" required="required">
+          </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="state-form">State:</label>
+          <div class="control">
+            <select class="select is-medium" name="state-form" id="state-form">
+            </select>
+          </div>
+      </div>
+
+      <div class="control">
+        <label class="radio" for="apartment-form">
+          <input type="radio" name="home-type" id="apartment-form" required="required">
+          Apartment
+        </label>
+
+        <label class="radio" for="house-form">
+          <input type="radio" name="home-type" id="house-form" required="required">
+          House
+        </label>
+      </div>
+
+      <div class="field">
+        <label class="label" for="resume-summary">Resume Summary</label>
+          <div class="control">
+            <textarea class="textarea has-fixed-size" name="resume-summary" id="resume-summary" maxlength="1000" required="required" placeholder="Short description of yout resume (1000 characters)"></textarea>
+          </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="postion-held">Occupation/Postion held</label>
+          <div class="control">
+            <textarea class="textarea has-fixed-size" name="postion-held" id="position-held" maxlength="40" required="required"></textarea>
+          </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="position-description">Position Description</label>
+          <div class="control">
+            <textarea class="textarea has-fixed-size" name="position-description" id="position-description" maxlength="500" required="required"></textarea>
+          </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="starting-date-form">Starting Date</label>
+          <div class="control">
+            <input type="text" name="starting-date" id="datepicker" required="required"
+            class="">
+          </div>
+      </div>
+
+    </form>
+
+    <div id="confirmation" class="confirmation">
+    </div>
+
+    <div class="buttons">
+
+      <input class="button is-success" type="submit" name="submit-form" id="submit-form-button">
+
+      <button class="button is-danger" name="clear-form" type="button" id="clear-form-button" onclick="window.location.reload()">Clear</button>
+
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    <script>
+      let picker = new Pikaday({ field: document.getElementById('datepicker'), format: 'D/M/YYYY', toString(date, format) {
+        const day = date.getDate();
+        const month = date.getMonth() + 1;
+        const year = date.getFullYear();
+        return `${day}/${month}/${year}`;
+      },
+      parse(dateString, format) {
+        const parts = dateString.split('/');
+        const day = parseInt(parts[0], 10);
+        const month = parseInt(parts[1], 10) - 1;
+        const year = parseInt(parts[2], 10);
+        return new Date(day, month, year)
+      }
+    
+    })
+    </script>
+  </body>
+</html>
