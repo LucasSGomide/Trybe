@@ -63,7 +63,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>5.7 - (Bônus) Projeto - Carta Misteriosa</li>
 </ul>
 
-#### ❌ Módulo 6:
+#### ✅ Módulo 6:
 
 <ul>
 <li>6.1 - Introdução - Front-end</li>
@@ -74,6 +74,33 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>6.4 - CSS Flexbox - Parte 2</li>
 <li>6.5 - CSS Responsivo - Mobile First</li>
 <li>6.6 - Projeto - Página inicial do Facebook</li>
+</ul>
+
+#### ❌ Módulo 7:
+
+<ul>
+<li>7.1 - JavaScript ES6 - let, const, arrow functions e template literals</li>
+<li>7.2 - JavaScript ES6 - Objects</li>
+<li>7.3 - Testes unitários em JavaScript</li>
+<li>7.4 - Projeto - JavaScript Testes Unitários</li>
+</ul>
+
+#### ❌ Módulo 8:
+
+<ul>
+<li>8.1 -  JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort</li>
+<li>8.2 - JavaScript ES6 - Higher Order Functions - map e filter</li>
+<li>8.3 - JavaScript ES6 - Higher Order Functions - reduce</li>
+<li>8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais</li>
+<li>8.5 Projeto - Zoo functions</li>
+</ul>
+
+#### ❌ Módulo 9
+
+<ul>
+<li>9.1 - JavaScript Assíncrono e Callbacks</li>
+<li>9.2 - JavaScript Promises</li>
+<li>9.3 - Projeto - Carrinho de Compras</li>
 </ul>
 
 <hr />
