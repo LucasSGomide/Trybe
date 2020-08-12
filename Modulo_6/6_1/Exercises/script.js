@@ -5,16 +5,18 @@ window.onload = function () {
 
   const  brazilianStates = ['AC', 'AL', 'AM', 'AP', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MG', 'MS', 'MT', 'PA', 'PB', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO'];
 
+  const  usStates = ['AC', 'AL', 'AM', 'AP', 'BA', 'CE', 'DF', 'ES', 'GO', 'MA', 'MG', 'MS', 'MT', 'PA', 'PB', 'PE', 'PI', 'PR', 'RJ', 'RN', 'RO', 'RR', 'RS', 'SC', 'SE', 'SP', 'TO'];
+
   function generateOptionTag () {
     let optionTag = document.createElement('option');
     return optionTag;
   };
   
-  function generateOptionStates (states) {
+  function generateOptionStates (array) {
     let newState = '';
-    for (index in states) {
+    for (index in array) {
       newState = generateOptionTag();
-      newState.innerText = states[index];
+      newState.innerText = array[index];
       stateForm.appendChild(newState);
     }
   };
@@ -73,8 +75,7 @@ dateForm.addEventListener('input' , function () {
   let dateMonth = parseInt(dateSaver.slice(3, 5));
   let dateYear = parseInt(dateSaver.slice(6, 10));
   if (dateDay < 0 || dateDay > 31) {
-    console.log(dateDay) 
-    dateForm.value = '';             
+    dateForm.value = ''; 
     alert('Invalid Sintax');
   } else if (dateMonth < 0 || dateMonth > 12) {
     alert('Invalid Sintax');
@@ -84,4 +85,3 @@ dateForm.addEventListener('input' , function () {
     alert('Invalid Sintax');
   }
 });
-
