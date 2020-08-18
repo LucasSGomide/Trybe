@@ -76,7 +76,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>6.6 - Projeto - Página inicial do Facebook</li>
 </ul>
 
-#### ❌ Módulo 7:
+#### ✅ Módulo 7:
 
 <ul>
 <li>7.1 - JavaScript ES6 - let, const, arrow functions e template literals</li>
