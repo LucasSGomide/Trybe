@@ -6,7 +6,6 @@ const assert = require('assert')
 
 const myList = [1, 2, 3]
 
-//const [x, y, z] = myList
 // escreva swap abaixo
 
 //const swap = (arr => arr.reverse())
