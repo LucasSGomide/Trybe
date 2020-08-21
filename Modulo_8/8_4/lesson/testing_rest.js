@@ -13,9 +13,7 @@ const test = {
   jobs: ['engraxate', 'marinheiro', 'x', 'y', 'z']
 };
 
-const {jobs} = test
 const newArr = Object.values(jobs)
-
 
 //console.log(Object.values(jobs))
 function organizeJob(x, y, z) {
