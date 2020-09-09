@@ -11,13 +11,7 @@ describe ('Testing if sum returns the correct value', () => {
 describe ('Testing if sum only accept numbers', () => {
   it('Should throw new Error', () => {
     expect(() => {
-      sum(5, '5').toThrow();
-    });
-  })
-})
-
-describe ('Checking error message', () => {
-  it('Should return parameters must be numbers', () => {
-    expect(sum(5, '5')).toEqual('parameters must be numbers')
+      sum(5, '5')
+    }).toThrow('parameters must be numbers');
   })
 })
