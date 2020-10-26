@@ -5,13 +5,14 @@ import { TEXT_INPUT } from '../actions'
 const intialState = {
   forms: {
     name: '',
+    email: '',
   },
 };
 
 function reducer(state = intialState, action) {
   switch (action.type) {
     case TEXT_INPUT:
-      return { ...state, forms: { ...state.forms, name: action.name } };
+      return { ...state, forms: { ...state.forms, name: action.name, email: action.email } };
     default:
       return state;
   }

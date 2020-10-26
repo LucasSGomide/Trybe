@@ -4,11 +4,12 @@ import React from 'react';
 class FormChecker extends React.Component {
   render() {
 
-    const { name } = this.props;
+    const { name, email } = this.props;
 
     return(
       <div>
-        <span>Nome: { name }</span>
+        <p>Nome: { name }</p>
+        <p>Email: { email }</p>
       </div>
     )
   }
@@ -16,6 +17,7 @@ class FormChecker extends React.Component {
 
 const mapStateToProps = (state) => ({
   name: state.reducer.forms.name,
+  email: state.reducer.forms.email
 })
 
 export default connect(mapStateToProps)(FormChecker);

@@ -14,6 +14,9 @@ class Forms extends React.Component {
           <label> Name
             <input onChange={ ({ target }) => inputValue('name', target.value) } type='text'/>
           </label>
+          <label> Email
+            <input onChange={ ({ target }) => inputValue('email', target.value) } type='text'/>
+          </label>
         </fieldset>
       </div>
     )
