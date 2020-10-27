@@ -3,20 +3,31 @@ import { createStore, combineReducers } from 'redux';
 import { TEXT_INPUT } from '../actions'
 
 const intialState = {
-  forms: {
-    name: '',
-    email: '',
-  },
+  name: '',
+  email: '',
 };
 
 function reducer(state = intialState, action) {
   switch (action.type) {
     case TEXT_INPUT:
-      return { ...state, forms: { ...state.forms, name: action.name, email: action.email } };
+      return { ...state, [action.field]: action.value };
     default:
       return state;
   }
 }
+
+// function reducer(state = intialState, action) {
+//   switch (action.type) {
+//     case TEXT_INPUT:
+//       if (action.name) {
+//         return { ...state, name: action.name };
+//       } else {
+//         return { ...state, email: action.email }
+//       }
+//     default:
+//       return state;
+//   }
+// }
 
 const rootReducer = combineReducers({ reducer });
 
