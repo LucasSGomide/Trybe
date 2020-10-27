@@ -16,19 +16,6 @@ function reducer(state = intialState, action) {
   }
 }
 
-// function reducer(state = intialState, action) {
-//   switch (action.type) {
-//     case TEXT_INPUT:
-//       if (action.name) {
-//         return { ...state, name: action.name };
-//       } else {
-//         return { ...state, email: action.email }
-//       }
-//     default:
-//       return state;
-//   }
-// }
-
 const rootReducer = combineReducers({ reducer });
 
 const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
