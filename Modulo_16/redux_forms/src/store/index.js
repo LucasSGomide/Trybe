@@ -4,7 +4,6 @@ import { TEXT_INPUT } from '../actions'
 
 const intialState = {
   name: '',
-  email: '',
 };
 
 function reducer(state = intialState, action) {
