@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 class NumberClicks extends React.Component {
   render() {
-    return <div>{this.props.counter}</div>;
+    return <div className='counter'>{this.props.counter}</div>;
   }
 }
 
