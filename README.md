@@ -67,40 +67,70 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 
 <ul>
 <li>6.1 - Introdução - Front-end</li>
-<li>6.1 - HTML & CSS - Forms</li>
-<li>6.2 - Bibliotecas JavaScript e Frameworks CSS</li>
-<li>6.3 - Introdução - CSS Flexbox</li>
-<li>6.3 - CSS Flexbox - Parte 1</li>
-<li>6.4 - CSS Flexbox - Parte 2</li>
-<li>6.5 - CSS Responsivo - Mobile First</li>
-<li>6.6 - Projeto - Página inicial do Facebook</li>
+<li>01: HTML & CSS - Forms</li>
+<li>02: Bibliotecas JavaScript e Frameworks CSS</li>
+<li>03: Introdução - CSS Flexbox</li>
+<li>03: CSS Flexbox - Parte 1</li>
+<li>04: CSS Flexbox - Parte 2</li>
+<li>05: CSS Responsivo - Mobile First</li>
+<li>06: Projeto - Página inicial do Facebook</li>
 </ul>
 
 #### ✅ Módulo 7:
 
 <ul>
-<li>7.1 - JavaScript ES6 - let, const, arrow functions e template literals</li>
-<li>7.2 - JavaScript ES6 - Objects</li>
-<li>7.3 - Testes unitários em JavaScript</li>
-<li>7.4 - Projeto - JavaScript Testes Unitários</li>
+<li>01: JavaScript ES6 - let, const, arrow functions e template literals</li>
+<li>02: JavaScript ES6 - Objects</li>
+<li>03: Testes unitários em JavaScript</li>
+<li>04: Projeto - JavaScript Testes Unitários</li>
 </ul>
 
 #### ❌ Módulo 8:
 
 <ul>
-<li>8.1 -  JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort</li>
-<li>8.2 - JavaScript ES6 - Higher Order Functions - map e filter</li>
-<li>8.3 - JavaScript ES6 - Higher Order Functions - reduce</li>
-<li>8.4 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais</li>
-<li>8.5 Projeto - Zoo functions</li>
+<li>01: JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort</li>
+<li>02: JavaScript ES6 - Higher Order Functions - map e filter</li>
+<li>03: JavaScript ES6 - Higher Order Functions - reduce</li>
+<li>04: JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais</li>
+<li>05: Projeto - Zoo functions</li>
 </ul>
 
 #### ❌ Módulo 9
 
 <ul>
-<li>9.1 - JavaScript Assíncrono e Callbacks</li>
-<li>9.2 - JavaScript Promises</li>
-<li>9.3 - Projeto - Carrinho de Compras</li>
+<li>01: JavaScript Assíncrono e Callbacks</li>
+<li>02: JavaScript Promises</li>
+<li>03: Projeto - Carrinho de Compras</li>
+</ul>
+
+#### ❌ Módulo 10
+
+<ul>
+<li>01: Primeiros passos no Jest</li>
+<li>02: Jest - Testes Assíncronos</li>
+<li>03: Jest - Simulando comportamentos</li>
+<li>04: Projeto - Jest Assíncrono e Mocking</li>
+</ul>
+
+<hr />
+
+#### ❌ Módulo 11
+
+<ul>
+<li>01: Introdução - Front-end</li>
+<li>01: Introdução - React</li>
+<li>01: 'Hello, world!' no React!</li>
+<li>02: Componentes React</li>
+<li>03: Projeto - Movie Cards Library</li>
+</ul>
+
+
+#### ❌ Módulo 12
+
+<ul>
+<li>01: Componentes com estado e eventos</li>
+<li>02: Formulários no React</li>
+<li>103: Projeto - Movie Cards Library Stateful</li>
 </ul>
 
 <hr />
