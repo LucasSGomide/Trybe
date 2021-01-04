@@ -85,7 +85,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>JavaScript ES6 - let, const, arrow functions e template literals</li>
 <li>JavaScript ES6 - Objects</li>
 <li>Testes unitários em JavaScript</li>
-<li>Projeto - JavaScript Testes Unitários</li>
+<li>Projeto - <a href="https://github.com/LucasSGomide/lucasSGomide.github.io/tree/master/Unit_Tests" target="_blank">JavaScript Testes Unitários<a></li>
 </ul>
 
 #### ✅ Módulo 8
@@ -95,7 +95,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>JavaScript ES6 - Higher Order Functions - map e filter</li>
 <li>JavaScript ES6 - Higher Order Functions - reduce</li>
 <li>JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais</li>
-<li>Projeto - Zoo functions</li>
+<li>Projeto - <a href="https://github.com/LucasSGomide/lucasSGomide.github.io/tree/master/Zoo_Functions" target="_blank">Zoo functions<a></li>
 </ul>
 
 #### ✅ Módulo 9
@@ -103,7 +103,8 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <ul>
 <li>JavaScript Assíncrono e Callbacks</li>
 <li>JavaScript Promises</li>
-<li>Projeto - Carrinho de Compras</li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Shopping_Cart/" target="_blank"><a>Carrinho de Compras</li>
+</ul>
 </ul>
 
 #### ✅ Módulo 10
@@ -112,7 +113,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Primeiros passos no Jest</li>
 <li>Jest - Testes Assíncronos</li>
 <li>Jest - Simulando comportamentos</li>
-<li>Projeto - Jest Assíncrono e Mocking</li>
+<li>Projeto - <a href="https://github.com/LucasSGomide/lucasSGomide.github.io/tree/master/Jest_Tests" target="_blank"><a>Jest Assíncrono e Mocking</li>
 </ul>
 
 <hr />
