@@ -103,7 +103,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <ul>
 <li>JavaScript Assíncrono e Callbacks</li>
 <li>JavaScript Promises</li>
-<li>Projeto - <a href="https://lucassgomide.github.io/Shopping_Cart/" target="_blank"><a>Carrinho de Compras</li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Shopping_Cart/" target="_blank">Carrinho de Compras<a></li>
 </ul>
 </ul>
 
@@ -113,7 +113,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Primeiros passos no Jest</li>
 <li>Jest - Testes Assíncronos</li>
 <li>Jest - Simulando comportamentos</li>
-<li>Projeto - <a href="https://github.com/LucasSGomide/lucasSGomide.github.io/tree/master/Jest_Tests" target="_blank"><a>Jest Assíncrono e Mocking</li>
+<li>Projeto - <a href="https://github.com/LucasSGomide/lucasSGomide.github.io/tree/master/Jest_Tests" target="_blank">Jest Assíncrono e Mocking<a></li>
 </ul>
 
 <hr />
