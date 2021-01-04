@@ -36,7 +36,8 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>HTML & CSS - Primeiros passos em CSS</li>
 <li>HTML & CSS - Seletores e posicionamento</li>
 <li>HTML Semântico</li>
-<li>Projeto - <a href="https://github.com/LucasSGomide/lucasSGomide.github.io">Lessons Learned - HTML & CSS</a></li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Portfolio_Pessoal/" target="_blank">Portfólio Pessoal<a></li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Lessons_learned/">Lessons Learned - HTML & CSS</a></li>
 </ul>
 
 #### ✅ Módulo 4
@@ -60,7 +61,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Introdução - JavaScript - Projetos</li>
 <li>Projeto - Meme Generator</li>
 <li>Projeto - Arte com Pixels</li>
-<li>Projeto - Lista de tarefas</li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Lessons_learned/" target="_blank">Lista de Tarefas<a></li>
 <li>(Bônus) Projeto - Adivinhe a Cor</li>
 <li>(Bônus) Projeto - Carta Misteriosa</li>
 </ul>
