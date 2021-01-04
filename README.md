@@ -59,9 +59,9 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>JavaScript - Eventos</li>
 <li>JavaScript - Web Storage</li>
 <li>Introdução - JavaScript - Projetos</li>
-<li>Projeto - Meme Generator</li>
-<li>Projeto - Arte com Pixels</li>
-<li>Projeto - <a href="https://lucassgomide.github.io/Lessons_learned/" target="_blank">Lista de Tarefas<a></li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Meme_Generator/" target="_blank">Meme Generator<a></li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Pixel_Art/" target="_blank">Arte com Pixels<a></li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Todo_List/" target="_blank">Lista de Tarefas<a></li>
 <li>(Bônus) Projeto - Adivinhe a Cor</li>
 <li>(Bônus) Projeto - Carta Misteriosa</li>
 </ul>
@@ -76,7 +76,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>CSS Flexbox - Parte 1</li>
 <li>CSS Flexbox - Parte 2</li>
 <li>CSS Responsivo - Mobile First</li>
-<li>Projeto - Página inicial do Facebook</li>
+<li>Projeto - <a href="https://lucassgomide.github.io/Facebook_SignUp/" target="_blank">Página inicial do Facebook<a></li>
 </ul>
 
 #### ✅ Módulo 7
