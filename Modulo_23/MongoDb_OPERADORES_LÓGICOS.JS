@@ -30,25 +30,25 @@ db.inventory.find({ $nor: [{ price: 1.99 }, { sale: true }] })
 // Sintaxe: { $and: [{ <expressão1> }, { <expressão2> } , ... , { <expressãoN> }] }
 
 db.inventory.find({
-  and: [
-          { price: { $ne: 1.99 } },
-          { price: { $exists: true } }
-      ]
-  })
+  $and: [
+    { price: { $ne: 1.99 } },
+    { price: { $exists: true } }
+  ]
+})
 // Essa query seleciona todos os documentos da coleção inventory em que o valor do campo price é diferente de 1.99 e o campo price existe.
 
 db.inventory.find({
-  and: [
-          {
-  or: [
-                  { price: { $gt: 0.99, $lt: 1.99 } }
-              ]
-          },
-          {
-  or: [
-                  { sale : true },
-                  { qty : { $lt : 20 } }
-              ]
-          }
+  $and: [
+    {
+      $or: [
+        { price: { $gt: 0.99, $lt: 1.99 } }
       ]
-  })
+    },
+    {
+      $or: [
+        { sale : true },
+        { qty : { $lt : 20 } }
+      ]
+    }
+  ]
+})
