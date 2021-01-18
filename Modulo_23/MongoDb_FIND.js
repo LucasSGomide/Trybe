@@ -15,3 +15,18 @@ db.collection.find( { chave: { $gt: 4 } } ) // procura chave que seja greater th
 db.collection.find( { _id: 5 } ) // Retorna todos os campos que possuam id = a 5
 
 db.collection.find( { "name.last": "Hopper" } ) // Retorna todos os documentos da coleção bios em que o campo last do subdocumento name é igual a "Hopper" (subdocumentos são como se fossem objetos dentro de objetos)
+
+
+// Uso de AND associado ao OR com find.
+db.voos.find({
+  $and: [
+    {
+      $or: [
+        { "empresa.nome": "DELTA AIRLINES" },
+        { "empresa.nome": "AMERICAN AIRLINES" },
+      ],
+    },
+    { "aeroportoOrigem.sigla": "SBGR" },
+    { "aeroportoDestino.sigla": "KJFK" },
+  ],
+}, { _id: 0, vooId: 1 }).limit(1);
