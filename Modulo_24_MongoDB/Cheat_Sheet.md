@@ -54,7 +54,7 @@ db.collection.deleteMany({ status : "A" });
 ```
 
 ```
-db.inventory.deleteMany( {} )
+db.collection.deleteMany( {} )
 ```
 
 ### EXISTS
@@ -64,11 +64,11 @@ Check if an item exists.
   - Use false to find items that exists
 
 ```
-db.inventory.find({ qty: { $exists: true } })
+db.collection.find({ qty: { $exists: true } })
 ```
 
 ```
-db.inventory.find({ qty: { $exists: true } })
+db.collection.find({ qty: { $exists: true } })
 ``` 
 
 ### FIND
@@ -316,17 +316,17 @@ each: ["camera", "electronics", "accessories"]
 ### POP
 
 ```
-db.supplies.updateOne({ _id: 1 }, { $pop: { items: -1 } });
+db.collection.updateOne({ _id: 1 }, { $pop: { items: -1 } });
 ```
 
 ```
-db.supplies.update({ _id: 1 }, { $pop: { items: 1 } });
+db.collection.update({ _id: 1 }, { $pop: { items: 1 } });
 ```
 
 ### PUll
 
 ```
-db.supplies.updateMany(
+db.collection.updateMany(
   {},
   {
 pull: {
@@ -339,7 +339,7 @@ pull: {
 ```
 
 ```
-db.profiles.updateOne(
+db.collection.updateOne(
   { _id: 1 },
   {
 pull: {
@@ -350,7 +350,7 @@ pull: {
 ```
 
 ```
-db.survey.updateMany(
+db.collection.updateMany(
   {},
   {
 pull: {
@@ -363,7 +363,7 @@ pull: {
 ### PUSH
 
 ```
-db.supplies.updateOne(
+db.collection.updateOne(
   {_id: 1 },
   { $push:
     { 
@@ -379,7 +379,7 @@ db.supplies.updateOne(
 ```
 
 ```
-db.supplies.updateOne(
+db.collection.updateOne(
   {},
   { $push: {
       items:
@@ -402,7 +402,7 @@ db.supplies.updateOne(
 ```
 
 ```
-db.supplies.updateOne(
+db.collection.updateOne(
   { _id: 1},
   { $push: {
       items: { 
