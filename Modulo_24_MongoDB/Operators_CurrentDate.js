@@ -3,7 +3,7 @@
 // $currentDate - Atribui a data CORRENTE ao campo.
 // $type -> Define o tipo de TIMESTAMP { $type: "timestamp" } ou { $type: "date" }.
 
-// Pode-se utilizar TRUE no lugar de type, desta forma ele setará o campo com o tipo DATE.
+// Pode-se utilizar TRUE no lugar de type, desta forma ele setará o campo com o tipo DATE. { $type: true }
 
 // sintaxe: { $currentDate: { <campo>: <typeSpecification>, ... } }
 
