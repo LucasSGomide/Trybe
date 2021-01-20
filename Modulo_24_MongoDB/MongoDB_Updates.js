@@ -14,3 +14,5 @@ db.inventory.updateMany(
   { "qty": { $lt: 50 } }, // Filtro de seleção
   { $set: { "size.uom": "in", status: "P" } } // Atualização
 );
+
+// $upsert -> Insere e atualiza itens na DB, passado como parâmetro final. Update if exists, create if not. (voltar na aula pro exemplo)
