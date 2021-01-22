@@ -1,5 +1,5 @@
-# MongoDB Operators Cheat Sheet
-* [Filter Operators](#filter-operators)
+# MongoDB Cheat Sheet
+* [**Filter Operators**](#filter-operators)
   * [COUNT](#count)
   * [DELETE](#delete)
   * [EXISTS](#exists)
@@ -7,7 +7,7 @@
   * [INSERT](#insert)
   * [LIMIT](#limit)
   * [SORT](#sort)
-* [Comparison Operators](#comparison-operators)
+* [**Comparison Operators**](#comparison-operators)
   * [LESS THAN](#less-than)
   * [LESS THAN OR EQUAL TO](#less-than-or-equal-to)
   * [GREATER THAN](#greater-than)
@@ -16,18 +16,18 @@
   * [NOT EQUAL TO](#not-equal-to)
   * [IN](#in)
   * [NOT IN](#not-in)
-* [Logical Operators](#logical-operators)
+* [**Logical Operators**](#logical-operators)
   * [NOT](#not)
   * [OR](#or)
   * [NOR](#nor)
   * [AND](#and)
   * [AND OR](#and-or)
-* [Array Modifiers](#array-modifiers)
+* [**Array Modifiers**](#array-modifiers)
   * [EACH](#each)
   * [SLICE](#slice)
   * [ARRAY SORT](#array-sort)
   * [POSITION](#position)
-* [Array Operators](#array-operators)
+* [**Array Operators**](#array-operators)
   * [$ADD TO SET](#add-to-set)
   * [$FILTERS](#filters)
   * [$POP](#pop)
@@ -323,7 +323,7 @@ db.collection.updateOne({ _id: 1 }, { $pop: { items: -1 } });
 db.collection.update({ _id: 1 }, { $pop: { items: 1 } });
 ```
 
-### PUll
+### PULL
 
 ```
 db.collection.updateMany(
