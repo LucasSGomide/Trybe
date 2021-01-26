@@ -14,6 +14,16 @@
 // as: ALIAS
 
 // ----------------------------------------------------------------------------------------------------------
+
+// Condicionais:
+
+// let : define as variáveis que serão utilizadas no estágio pipeline dentro do $lookup
+// pipeline : define as condições ou o pipeline que será executado na coleção de junção. Se você quiser todos os documentos da coleção de junção, é só especificá-lo como vazio ( [] ).
+
+
+// ----------------------------------------------------------------------------------------------------------
+
+
 // Exemplo:
 
 // orders
@@ -39,3 +49,28 @@ lookup: {
     }
   }
 ]); // Retorna um array inventory_docs com as matches para cada item que for comum.
+
+// Exemplo2:
+
+db.orders.aggregate([
+  {
+    $lookup: {
+      from: "warehouses",
+      let: { order_item: "$item", order_qty: "$ordered" },
+      pipeline: [
+        {
+          $match: {
+            $expr: {
+              $and: [
+                { $eq: [ "$stock_item",  "$$order_item" ] },
+                { $gte: [ "$instock", "$$order_qty" ] }
+              ]
+            }
+          }
+        },
+        { $project: { stock_item: 0, _id: 0 } }
+      ],
+      as: "stockdata"
+    }
+  }
+]);
