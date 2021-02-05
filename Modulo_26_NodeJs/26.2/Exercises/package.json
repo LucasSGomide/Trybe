@@ -1,0 +1,14 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "numberManager.js",
+  "scripts": {
+    "test": "node test.js",
+    "exercise1": "node numberManager.js",
+    "exercise2": "node numberManagerAsync.js",
+    "exercise3": "node readFiles.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
