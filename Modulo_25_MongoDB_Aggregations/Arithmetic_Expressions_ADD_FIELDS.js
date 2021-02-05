@@ -1,4 +1,5 @@
 // $addFields-> O $addFields é um estágio que adiciona novos campos aos documentos.
+// ADICIONA SOMENTE NO RESULTADO DA QUERY
 
 // $addFields
 
