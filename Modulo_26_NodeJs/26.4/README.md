@@ -108,6 +108,8 @@ npm i body-parser
 **OBS:** Normalmente utilizado para tratar o `body` de requisições do tipo `post` quando desejamos inserir parâmetros no `body`é pra .
 
 ``` javascript
+const bodyParser = require('body-parser');
+
 app.use(bodyParser.json()); // Aqui o body-parser entra convertendo o body para JSON
 
 app.post('/', (req, res) => {
