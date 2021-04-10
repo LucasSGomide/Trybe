@@ -209,7 +209,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - All For One</li>
 </ul>
 
-#### ❌ Módulo 21
+#### ✅ Módulo 21
 
 <ul>
 <li>Funções mais usadas no SQL</li>
@@ -218,7 +218,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Vocabulary Booster</li>
 </ul>
 
-#### ❌ Módulo 22
+#### ✅ Módulo 22
 
 <ul>
 <li>Transformando ideias em um modelo de banco de dados</li>
@@ -227,7 +227,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - One For All</li>
 </ul>
 
-#### ❌ Módulo 23
+#### ✅ Módulo 23
 
 <ul>
 <li>Introdução - NoSQL</li>
@@ -236,7 +236,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Data Flights</li>
 </ul>
 
-#### ❌ Módulo 24
+#### ✅ Módulo 24
 
 <ul>
 <li>Updates Simples</li>
@@ -245,7 +245,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Commerce</li>
 </ul>
 
-#### ❌ Módulo 25
+#### ✅ Módulo 25
 
 <ul>
 <li>Aggregation Framework - Parte 1</li>
@@ -253,7 +253,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Aggregations</li>
 </ul>
 
-#### ❌ Módulo 26
+#### ✅ Módulo 26
 
 <ul>
 <li>Intro - NodeJS</li>
@@ -265,7 +265,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Crush Manager</li>
 </ul>
 
-#### ❌ Módulo 27
+#### ✅ Módulo 27
 
 <ul>
 <li>Introdução - Arquitetura de Software</li>
@@ -275,7 +275,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Store Manager</li>
 </ul>
 
-#### ❌ Módulo 28
+#### ✅ Módulo 28
 
 <ul>
 <li>NodeJS - JWT - (JSON Web Token)</li>
@@ -283,7 +283,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Cookmaster</li>
 </ul>
 
-#### ❌ Módulo 29
+#### ✅ Módulo 29
 
 <ul>
 <li>Introdução - Deploy</li>
@@ -292,13 +292,13 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Stranger Things</li>
 </ul>
 
-#### ❌ Módulo 30
+#### ✅ Módulo 30
 
 <ul>
 <li>Projeto - Trybeer</li>
 </ul>
 
-#### ❌ Módulo 31
+#### ✅ Módulo 31
 
 <ul>
 <li>Arquitetura - Princípios SOLID</li>
@@ -308,7 +308,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - API de Blogs</li>
 </ul>
 
-#### ❌ Módulo 32
+#### ✅ Módulo 32
 
 <ul>
 <li>Sockets - TCP/UDP & NET</li>
