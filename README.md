@@ -317,7 +317,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Webchat</li>
 </ul>
 
-#### ❌ Módulo 33
+#### ✅ Módulo 33
 
 <ul>
 <li>Projeto - Trybeer v2</li>
@@ -325,7 +325,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 
 ### Ciência da Computação
 
-#### ❌ Módulo 34
+#### ✅ Módulo 34
 
 <ul>
 <li>Introdução - Ciência da Computação</li>
@@ -335,7 +335,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Explorando os protocolos</li>
 </ul>
 
-#### ❌ Módulo 35
+#### ✅ Módulo 35
 
 <ul>
 <li>Aprendendo Python</li>
@@ -345,7 +345,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Tech news</li>
 </ul>
 
-#### ❌ Módulo 36
+#### ✅ Módulo 36
 
 <ul>
 <li>Introdução à programação orientada a objetos</li>
@@ -354,7 +354,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Relatórios de Estoque</li>
 </ul>
 
-#### ❌ Módulo 37
+#### ✅ Módulo 37
 
 <ul>
 <li>Estrutura de Dados I - Arrays</li>
@@ -364,7 +364,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Algoritmos</li>
 </ul>
 
-#### ❌ Módulo 38
+#### ✅ Módulo 38
 
 <ul>
 <li>Estrutura de dados II - Hash maps & Dict</li>
@@ -372,7 +372,7 @@ O programa conta com mais de 1.500 horas aulas presenciais e online e aborda int
 <li>Projeto - Restaurant Orders</li>
 </ul>
 
-#### ❌ Módulo 39
+#### ✅ Módulo 39
 
 <ul>
 <li>Estrutura de dados III - Pilhas</li>
