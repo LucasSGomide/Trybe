@@ -2,8 +2,11 @@
 
 #### Sobre:
 
- A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso em tecnologia e que se compromete integralmente com seus estudantes, pois as pessoas só pagam quando conseguirem um bom trabalho.
+A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso em tecnologia e que se compromete integralmente com seus estudantes, pois as pessoas só pagam quando conseguirem um bom trabalho.
 O programa conta com mais de 1.500 horas aulas presenciais e online e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
+
+#### About:
+Trybe is a school dedicated to helping individuals forge successful careers in tech. The comprehensive program spans over 1,500 hours of live and recorded content, covering software development introduction, front-end, back-end, computer science, software engineering, agile methods, and soft skills.
 
 <hr />
 
