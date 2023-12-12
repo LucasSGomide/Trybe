@@ -1,4 +1,4 @@
-## Curso - Desenvolvimento WEB Full Stack
+## Trybe - Desenvolvimento Web Fullstack | Trybe - Fullstack Web Development
 
 #### Sobre:
 
